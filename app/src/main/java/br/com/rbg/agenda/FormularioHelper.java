@@ -16,10 +16,10 @@ public class FormularioHelper {
     private final EditText campoTelefone;
     private final EditText campoSite;
     private final RatingBar campoNota;
-    private Aluno aluno;
+    private Aluno aluno = new Aluno();
+
 
     public FormularioHelper(FormularioActivity activity) {
-
         campoNome = activity.findViewById(R.id.frm_nome);
         campoEndereco = activity.findViewById(R.id.frm_endereco);
         campoTelefone = activity.findViewById(R.id.frm_telefone);
