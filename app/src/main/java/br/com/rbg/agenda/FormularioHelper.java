@@ -61,6 +61,5 @@ public class FormularioHelper {
             campoFoto.setScaleType(ImageView.ScaleType.FIT_XY);
             campoFoto.setTag(caminhoFoto);
         }
-
     }
 }

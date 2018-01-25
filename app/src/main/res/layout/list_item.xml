@@ -32,7 +32,7 @@
             android:text="Telefone"
             android:textStyle="bold"
             android:paddingLeft="10dp"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:paddingTop="8dp"/>
 
     </LinearLayout>
