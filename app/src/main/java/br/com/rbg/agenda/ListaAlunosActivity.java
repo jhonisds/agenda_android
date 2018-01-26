@@ -128,9 +128,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
         List<Aluno> alunos = dao.buscaAlunos();
         dao.close();
 
-        /*ArrayAdapter<Aluno> adapter;
-        adapter = new ArrayAdapter<>(this, R.layout.list_item, alunos);*/
-
         AlunosAdapter adapter = new AlunosAdapter(this, alunos);
         lstAlunos.setAdapter(adapter);
     }
