@@ -8,4 +8,10 @@
         android:title="Enviar Notas"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/menu_baixar_provas"
+        android:icon="@drawable/ic_receber"
+        android:title="Baixar Provas"
+        app:showAsAction="always" />
+
 </menu>
